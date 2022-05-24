@@ -35,7 +35,7 @@ git add your-file
 - 添加`commit`信息
 
 ```shell
-git commit -m "what you wanna say"
+git commit -m "what do you wanna say"
 ```
 
 - 提交到远程仓库
