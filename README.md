@@ -9,7 +9,13 @@
 
 #### 简单的`github`操作
 
-**拉取代码手順**
+**克隆代码**
+
+```shell
+git clone "your-repo"
+```
+
+**拉取代码**
 
 ```shell
 git pull origin main
@@ -17,11 +23,7 @@ git pull origin main
 
 **提交代码手順**
 
-- 克隆代码
-
-```shell
-git clone "your-repo"
-```
+为了防止冲突，先`pull`在`push`
 
 - 添加文件到本地仓库
 
