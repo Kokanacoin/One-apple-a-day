@@ -4,3 +4,45 @@
 敲代码专用开发包。
 
 每次提交代码前记得`push`一下！
+
+
+
+#### 简单的`github`操作
+
+**拉取代码手順**
+
+```shell
+git pull origin main
+```
+
+**提交代码手順**
+
+- 克隆代码
+
+```shell
+git clone "your-repo"
+```
+
+- 添加文件到本地仓库
+
+```shell
+// 添加所有文件
+git add .
+// 添加指定文件
+git add your-file
+```
+
+- 添加`commit`信息
+
+```shell
+git commit -m "what you wanna say"
+```
+
+- 提交到远程仓库
+
+```shell
+git push origin main
+```
+
+
+
